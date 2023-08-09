@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hookah</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link rel="stylesheet" href="lib/magnific-popup.css">
+    <!--<link rel="stylesheet" href="lib/bootstrap.min.css">-->
+    <link rel="stylesheet" href="lib/jquery-ui.min.css">
+    <link rel="stylesheet" href="lib/slick.css">
+    <link rel="stylesheet" href="lib/slick-theme.css">
+    <link rel="stylesheet" href="src/styles/loader.css">
+    <!--<link href="lib/hover.min.css" rel="stylesheet" media="all">
+    <link rel="stylesheet" href="lib/magnific-popup.css">-->
+    <link rel="stylesheet" href="src/styles/style.css">
+    <link rel="stylesheet" href="src/styles/adaptiv.css">
+    
+</head>
+<body>
+    <div class="big__container">
+      <section class="main">
+      <div class="container-one">
+        
+            <header class="header">
+              
+                <nav class="nav" id="menu">
+                    <ul class="navbar">
+                      <li class="nav-item logos">
+                      <img src="./images/logo.png" alt="logo" >
+                      </li>
+                      <li class="nav-item-logo loc">
+                            <img src="./images/location-pin.png" alt="location" width="12" height="16">
+                            <p class="nav-link active">Нижний Новгород, Ильинская улица, 3</p>
+                     </li>
+                        <li class="nav-item-phone">
+                            <img src="./images/phone.png" alt="phone" width="15" height="15">
+                            <p class="navbar-text navbar-phone">+7(964)837-73-74</p>
+                          </li>
+                          <li class="nav-item time">
+                            <p class="navbar-text" >Вс-Чт 12:00-02:00</p>
+                            <p class="navbar-text" >Пт-Сб 12:00-06:00</p>
+                          </li>
+                    </ul>
+                  </nav>
+
+                  <div class="burger-mobile">
+                    <div class="mob-burger">
+                    <div class="logo-mob">
+                      <img src="./images/logo.png" alt="logo" >
+                    </div>
+                    <div class="phone-mob">
+                      <p class="navbar-text">+7(964)837-73-74</p> 
+                    </div>
+                    <div class="header__burger" id="burger">
+                      <svg class="header__burger-svg" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg">
+              <path d="m464.883 64.267h-417.766c-25.98 0-47.117 21.136-47.117 47.149 0 25.98 21.137 47.117 47.117 47.117h417.766c25.98 0 47.117-21.137 47.117-47.117 0-26.013-21.137-47.149-47.117-47.149z"/>
+              <path d="m464.883 208.867h-417.766c-25.98 0-47.117 21.136-47.117 47.149 0 25.98 21.137 47.117 47.117 47.117h417.766c25.98 0 47.117-21.137 47.117-47.117 0-26.013-21.137-47.149-47.117-47.149z"/>
+              <path d="m464.883 353.467h-417.766c-25.98 0-47.117 21.137-47.117 47.149 0 25.98 21.137 47.117 47.117 47.117h417.766c25.98 0 47.117-21.137 47.117-47.117 0-26.012-21.137-47.149-47.117-47.149z"/>
+          </svg>
+                  </div> 
+                </div>
+                    <nav class="mobile-nav" id="mob-menu">
+                      <div class="menu__close">
+                        <svg version="1.1" class="menu__close-svg" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            viewBox="0 0 492 492" enable-background="new 0 0 492 492" xml:space="preserve">
+                            <g>
+                            <g>
+                                <path d="M300.188,246L484.14,62.04c5.06-5.064,7.852-11.82,7.86-19.024c0-7.208-2.792-13.972-7.86-19.028L468.02,7.872
+                                c-5.068-5.076-11.824-7.856-19.036-7.856c-7.2,0-13.956,2.78-19.024,7.856L246.008,191.82L62.048,7.872
+                                c-5.06-5.076-11.82-7.856-19.028-7.856c-7.2,0-13.96,2.78-19.02,7.856L7.872,23.988c-10.496,10.496-10.496,27.568,0,38.052
+                                L191.828,246L7.872,429.952c-5.064,5.072-7.852,11.828-7.852,19.032c0,7.204,2.788,13.96,7.852,19.028l16.124,16.116
+                                c5.06,5.072,11.824,7.856,19.02,7.856c7.208,0,13.968-2.784,19.028-7.856l183.96-183.952l183.952,183.952
+                                c5.068,5.072,11.824,7.856,19.024,7.856h0.008c7.204,0,13.96-2.784,19.028-7.856l16.12-16.116
+                                c5.06-5.064,7.852-11.824,7.852-19.028c0-7.204-2.792-13.96-7.852-19.028L300.188,246z"/>
+                            </g>
+                            </g>
+                        </svg>
+                </div>
+                <ul class="navbar-mob">
+                  <li class="nav-item logos">
+                  <img src="./images/logo.png" alt="logo" >
+                  </li>
+                  <li class="nav-item-logo loc">
+                        <p class="nav-link active">Нижний Новгород, Ильинская улица, 3</p>
+                 </li>
+                    <li class="nav-item-phone">
+                        <p class="navbar-text">+7(964)837-73-74</p>
+                      </li>
+                      <li class="nav-item time">
+                        <p class="navbar-text" >Вс-Чт 12:00-02:00</p>
+                        <p class="navbar-text" >Пт-Сб 12:00-06:00</p>
+                      </li>
+                </ul>
+
+                    </nav>
+                  </div>
+            </header>
+
+            <div class="main-container">
+              <div class="main-info">
+                <h1 class="double-title">КАЛЬЯННАЯ   
+                  <span class="mint">МЯТА </span>LOUNGE
+              </h1>
+
+              <div class="main-text">
+                <div class="main-text-description">Качество и атмосфера вашего отдыха</div>
+            </div>
+
+            <div class="main-action">
+              <button class="btn" id="btn-one">Посмотреть меню</button>
+              <button class="btn" id="btn-two">Забронировать столик</button>
+          </div>
+              </div>
+              
+              <div class="main-image">
+                <img src="images/kalyan.png" alt="kalyan"> 
+             </div>  
+              
+            </div>
+
+            <div class="main-container-adapt">
+              
+              <h1 class="double-title-adapt">КАЛЬЯННАЯ   
+                <span class="mint-adapt">МЯТА </span>LOUNGE
+            </h1>
+
+            <div class="main-text">
+              <div class="main-text-description-adapt">Качество и атмосфера вашего отдыха</div>
+          </div>
+
+          <div class="main-image-adapt">
+            <img src="images/kalyan.png" alt="kalyan"> 
+         </div> 
+
+         <div class="main-action">
+          <button class="btn" id="btn-one-adapt">Посмотреть меню</button>
+          <button class="btn" id="btn-two-adapt">Забронировать столик</button>
+      </div>
+            </div>
+        
+      </div>
+    </section>
+      
+    <section class="advantages">
+      <div class="container-two">
+        
+            <div class="advantages-container">
+              <div class="advantages-title">Почему нас выбирают?</div>
+              <div class="twoon">
+              <div class="text one">Находимся <span> в самом центре </span> Нижнего Новгорода</div>
+              <div class="text two">Более <span> 100 видов табака </span> из разных стран</div>
+            </div>
+            <div class="treefour">
+              <div class="text three">Собственная удобная <span>большая парковка</span></div>
+              <div class="text four"><span>5 лет </span> в дымной индустрии</div>
+            </div> 
+            <div class="fives">
+              <div class="text four"><span>Sony PS </span> и <span> настольные игры </span> для душевного отдыха</div>
+            </div>
+
+            <div class="ugly">
+              <img src="/images/group3.png" alt="ugly">
+            </div>
+            </div>
+
+            
+        
+      </div>
+    </section>
+      
+      
+      <section class="sliders">
+      <div class="container-three">
+        
+          <div class="header">
+            Почувствуй мятную атмосферу
+          </div>
+          
+          <div id="mainSlider" class="video-list">
+            <div class="iframe">
+              <video  width="1100px" height="600px"  class="video"  controls autoplay loop muted playsinline>
+                <source src="/videos/music.mp4" type="video/mp4" >
+              </video>
+              </div>
+              <div class="iframe">
+              <video  width="1100px" height="600px" class="video"  controls autoplay loop muted playsinline>
+                <source src="/videos/candy.mp4"  type="video/mp4" >
+              </video>
+            </div>
+            <div class="iframe">
+              <video  width="1100px" height="600px" class="video"  controls autoplay loop muted playsinline>
+                <source src="/videos/music.mp4" type="video/mp4" >
+              </video>
+            </div>
+            <div class="iframe">
+              <video width="1100px" height="600px" class="video"   controls autoplay loop muted playsinline>
+                <source src="/videos/candy.mp4" type="video/mp4" >
+              </video>
+            </div>
+            <div class="iframe">
+              <video  width="1100px" height="600px" class="video"  controls autoplay loop muted playsinline>
+                <source src="/videos/music.mp4" type="video/mp4" >
+              </video>
+            </div>
+        
+        </div>
+       <div class="mints">
+        <img src="/images/peppermint.png" alt="mint">
+       </div> 
+     
+      </div>
+    </section>
+
+    
+
+      <section class="option">
+
+        
+
+        <div class="dumleftprice2">
+          <img src="/images/dumpricenew.png" alt="dumprice">
+        </div>
+
+        <div class="dumleftprice">
+          <img src="/images/dumleftprice3.png" alt="dumprice">
+        </div>
+    
+        <div class="dumrightprice">
+          <img src="/images/dumrightprice.png" alt="dumprice">
+        </div>
+        
+        <div class="header-four">Наше меню</div>
+      
+        <div class="container-four">
+        
+        
+        
+        <div class="option-items">
+          
+        <div class="title-four"><p class="p">Мята lounge</p></div>
+        <div class="card-one">
+        <div class="option-item">
+          <div class="option-price"><p class="p">900 ₽</p></div>
+          <div class="option-info">
+            <div class="title">Sherbe</div>
+            <div class="title">Adalya </div>
+            <div class="title">Afzal</div>
+          </div>
+        </div>
+        <div class="option-item">
+          <div class="option-price"><p class="p">1 100 ₽</p></div>
+          <div class="option-info">
+            <div class="title">Darkside</div>
+            <div class="title">Fumari</div>
+            <div class="title">Nakhla</div>
+            <div class="title">Tangiers</div>
+          </div>
+        </div>
+      </div>
+      <div class="card-two">
+        <div class="option-item">
+          <div class="option-price"><p class="p">1 400 ₽</p> </div>
+          <div class="option-info">
+            <div class="title">Мохито</div>
+            <div class="title">Баунти</div>
+            <div class="title">Фараон</div>
+            <div class="title">Дамский</div>
+          </div>
+        </div>
+        <div class="option-item">
+          <div class="option-price"><p class="p">1 700 ₽</p></div>
+          <div class="option-info">
+            <div class="title">Яблоко</div>
+            <div class="title">Апельсин</div>
+            <div class="title">Грейпфрут</div>
+          </div>
+        </div>
+      </div>
+      <div class="card-three">
+        <div class="option-item">
+          <div class="option-price"><p class="p">2 000 ₽</p></div>
+          <div class="option-info">
+            <div class="title">Кокос</div>
+            <div class="title">Ананас</div>
+          </div>
+        </div>
+        <div class="option-item">
+          <div class="option-price"><p class="p">3 000 ₽</p> </div>
+          <div class="option-info">
+            <div class="title">Фирменный</div>
+            <div class="title">кальян мята</div>
+          </div>
+        </div>
+      </div>
+      </div>
+      
+      </div>
+    </section> 
+
+    <section class="ps">
+<div class="container-ps">
+  <div class="header-ps">Наши залы</div>
+<div class="services">
+
+  <div class="cervices-one">
+  <div class="services-item">
+    <div class="text-ps">
+    <div class="services-title">Для больших компаний</div>
+    <div class="services-text">Что может быть лучше, чем проводить время в шумной и дружной компании? Правильно, проводить время в отдельном зале! VIP комната или lounge зона, выбор за вами!</div>
+    </div>
+    <div class="services-img">
+      <img src="/images/group.png" alt="">
+    </div>
+  </div>
+  <div class="services-item">
+    <div class="text-ps">
+    <div class="services-title">Банкеты и дни рождения</div>
+    <div class="services-text">Праздник это к нам. Ведь у нас любое важное событие становится
+      не только веселым, но и выгодным для вас!</div>
+    </div>
+      <div class="services-img">
+        <img src="/images/balloons.png" alt="">
+      </div>
+  </div>
+</div>
+
+<div class="cervices-two">
+  <div class="services-item">
+    <div class="text-ps">
+    <div class="services-title">Игровая зона PS5</div>
+    <div class="services-text">Погрузитесь в мир консольных баталий на качественном уровне! Незабываемые впечатления и все новые игры ждут вас!</div>
+  </div>
+    <div class="services-img">
+      <img src="/images/joystick.png" alt=""></div>
+  </div>
+  <div class="services-item">
+    <div class="text-ps">
+    <div class="services-title">Место для свидания</div>
+    <div class="services-text">Пожалуй, лучший подарок для любимого человека. Ощущение праздника романтики окружит вас мгновенно, как только вы зайдете</div>
+  </div>
+    <div class="services-img">
+      <img src="/images/heart1.png" alt=""></div>
+  </div>
+
+</div>
+
+
+</div>
+</div>
+    </section>
+    
+    <section class="action">
+    <div class="container-action">
+      <span class="span-two"></span>
+      <div class="smokerings">
+        <img src="/images/smokerings.png" alt="rings">
+      </div>
+      
+        
+<div class="action-header">Бронирование столика</div>
+<div class="action-text">Заполните форму и с вами свяжется менеджер для подтверждения брони</div>
+
+
+ 
+<form action="" class="action-form" method="post" id="valid-form">
+   
+<input type="text" name="names" id="names" placeholder="Ваше имя">
+<div  class="error-input">"Необходимо ввести имя!"</div>
+
+<input type="number" name="phone" id="phone" placeholder="+7(___)___-__-__">
+<div  class="error-input">"Необходимо ввести телефон!"</div>
+<div class="select-wrapper">
+<select type="number" name="time" id="time">
+  <div class="svg">
+    <img src="/images/next.png" alt="">
+  </div>
+  <option disabled selected hidden>Выберите время</option>
+ <option class="option-time">22.00</option>
+  <option class="option-time">22.30</option>
+  <option class="option-time" >23.00</option>
+  <option class="option-time">23.30</option>
+  <option class="option-time">00.00</option>
+  <option class="option-time">00.30</option>
+  <option class="option-time">01.00</option>
+  <option class="option-time">01.30</option>
+</select>
+<div class="error-input">"Необходимо выбрать время!"</div>
+</div>
+<button type="button" class="btn order__button" id="submit">Забронировать столик</button>
+  </form>
+
+  <div class="smokeform">
+    <img src="/images/smokeform.png" alt="smokform">
+  </div>
+    </div> 
+    </section>
+    
+  <section class="reviews">
+<div class="reviews-header">Отзывы гостей</div>
+
+<div class="content-reviews">
+  <div class="slider slider-reviews">
+    
+    <div class="reviews-item">
+      <div class="name">
+      <div>
+        <img src="/images/sergey.png" alt="sg">
+      </div>
+      <div class="items-names">
+      <div class="item-name">Сергей Калугин</div>
+      <div class="item-title">постоянный гость</div>
+    </div>
+    </div>
+    <div class="item-text">
+      Очень уютное заведение, прекрасные кальяны, очень клёвая чайная карта, отзывчивый персонал, прекрасная шаговая доступность от метро, собственная паркова. 
+    </div>
+  </div>
+
+
+  <div class="reviews-item">
+    <div class="name">
+    <div>
+      <img src="/images/maria.png" alt="mr">
+    </div>
+    <div class="items-names">
+    <div class="item-name">Мария Синицына</div>
+    <div class="item-title" >постоянный гость</div>
+  </div>
+  </div>
+  <div class="item-text">
+    Очень душевное, уютное место с прекрасной атмосферой! И, кстати,
+    вполне адекватные цены!
+  </div>
+  </div>  
+
+
+  <div class="reviews-item">
+    <div class="name">
+    <div>
+      <img src="/images/sergey.png" alt="sg">
+    </div>
+    <div class="items-names">
+    <div class="item-name">Сергей Калугин</div>
+    <div class="item-title">постоянный гость</div>
+  </div>
+  </div>
+  <div class="item-text">
+    Очень уютное заведение, прекрасные кальяны, очень клёвая чайная карта, отзывчивый персонал, прекрасная шаговая доступность от метро, собственная паркова. 
+  </div>
+</div>
+
+
+<div class="reviews-item">
+  <div class="name">
+  <div>
+    <img src="/images/maria.png" alt="mr">
+  </div>
+  <div class="items-names">
+  <div class="item-name">Мария Синицына</div>
+  <div class="item-title" >постоянный гость</div>
+</div>
+</div>
+<div class="item-text">
+  Очень душевное, уютное место с прекрасной атмосферой! И, кстати,
+  вполне адекватные цены!
+</div>
+</div> 
+
+<div class="reviews-item">
+  <div class="name">
+  <div>
+    <img src="/images/sergey.png" alt="sg">
+  </div>
+  <div class="items-names">
+  <div class="item-name">Сергей Калугин</div>
+  <div class="item-title">постоянный гость</div>
+</div>
+</div>
+<div class="item-text">
+  Очень уютное заведение, прекрасные кальяны, очень клёвая чайная карта, отзывчивый персонал, прекрасная шаговая доступность от метро, собственная паркова. 
+</div>
+</div>
+
+
+<div class="reviews-item">
+<div class="name">
+<div>
+  <img src="/images/maria.png" alt="mr">
+</div>
+<div class="items-names">
+<div class="item-name">Мария Синицына</div>
+<div class="item-title" >постоянный гость</div>
+</div>
+</div>
+<div class="item-text">
+Очень душевное, уютное место с прекрасной атмосферой! И, кстати,
+вполне адекватные цены!
+</div>
+</div>
+
+</div>
+
+  </div>
+
+
+  <div class="footer-container">
+  
+    <div class="footer-logo">
+      <img src="/images/logo.png" alt="logo">
+      <div class="footer-text">Все права защищены, 2021</div>
+      <div class="footer-link">
+        <a href="#"><img src="/images/telegram.png" alt="tel"></a>
+        <a href="#"><img src="/images/instagram.png" alt="inst"></a>
+      </div>
+    </div>
+    <div class="footer-info">
+      <div class="info-title">Информация</div>
+      <div class="info-text">
+        <p>Меню</p>
+        <p>3-D тур по залам</p>
+        <p>Бронирование столика</p>
+        <p>Контакты</p>
+      </div>
+    </div>
+    <div class="footer-contact">
+      <div class="contact-title">Контакты</div>
+      <div class="contact-text">
+        <p>+7 (964) 837-73-74</p>
+        <p>Нижний Новгород, Ильинская улица, 3</p>
+      </div>
+        <div class="contact-time">
+        <p>Вс-Чт 12:00-02:00</p>
+        <p>Пт-Сб 12:00-06:00</p>
+      </div>
+    </div>
+  
+  
+    <div class="footerdum">
+      <img src="/images/dumfooter.png" alt="footdum" class="footdum">
+    </div>
+
+  </div>
+
+  <div class="footer-adapt">
+    <div class="logo-adapt">
+      <img src="/images/logo.png" alt="logo">
+    </div>
+    <div class="contact-adapt">
+      <div class="messanger">
+      <a href="#" class="telegram"><img src="/images/telegram.png" alt="tel"></a>
+        <a href="#" class="insta"><img src="/images/instagram.png" alt="inst"></a>
+      </div>
+      <div class="geoloc">
+        <img src="./images/location-pin.png" alt="location" width="12" height="16">
+        <p class="nav-link active navbar-adapt">Нижний Новгород, Ильинская улица, 3</p>
+      </div>
+    </div>
+
+    <div class="time-adapt">
+      <div >
+      <p class="navbar-adapt time-one" >Вс-Чт 12:00-02:00</p>
+      <p class="navbar-adapt" >Пт-Сб 12:00-06:00</p>
+    </div>
+    <p class="navbar-adapt adapt-phone" >+7(964)837-73-74</p>
+    </div>
+
+  </div>
+ 
+  
+  </section>
+  
+  
+  </div>
+    
+  
+ 
+  
+ <div class="loader">
+  <div class="lds-default"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+ </div> 
+  
+  <!--<script src="lib/bootstrap.min.js"></script>-->
+    <script src="lib/jquery-3.6.4.min.js"></script>
+    <script src="lib/jquery.magnific-popup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+    <script src="lib/slick.min.js"></script>
+    <script src="index.js"></script>    
+</body>
+</html>
