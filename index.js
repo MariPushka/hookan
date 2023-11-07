@@ -19,12 +19,6 @@ $('#btn-two').click(function(){
   $('.action')[0].scrollIntoView({behavior: "smooth"});
 });
 
-
-  
-  
-
-
-
 $('#mainSlider').slick({
  arrows:true,
     dots:true,
@@ -77,9 +71,6 @@ $('.slider-reviews').slick({
   ]
 });
 
-  
-  
- 
 
   let loader=$('.loader');
 
@@ -119,12 +110,12 @@ submit.click(function (){
           loader.hide();
           if (msg.success) {
             $("form")[0].reset();
-            $(".action-header").fadeOut(297).delay(4000);
-  $(".action-text").fadeOut(297).delay(4000);
-  $('.action-form').fadeOut(297).delay(4000);
+            $(".action-header").fadeOut(297).delay(4000).fadeIn(297);
+  $(".action-text").fadeOut(297).delay(4000).fadeIn(297);
+  $('.action-form').fadeOut(297).delay(4000).fadeIn(297);
             //$(".container-action").fadeOut(297).delay(4000).fadeIn(297);
             $(".span-two").append("<span>Спасибо за Ваш заказ. Мы скоро свяжемся с Вами!</span>").fadeIn(297).delay(4000);
-            
+           $("#submit").attr("disabled","disabled"); 
             //$("span").append("<span>Спасибо за Ваш заказ. Мы скоро свяжемся с Вами!</span>").delay(4000).fadeOut(297);
             //$('.spans').append('<span>Спасибо, мы свяжемся с вами в ближайшее время!</span>');
             //popap.delay(1000).fadeOut(300);

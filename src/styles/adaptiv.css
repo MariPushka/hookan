@@ -70,6 +70,10 @@
             background-color: rgb(120, 234, 255);
             border:none;
         }
+
+        .footer-container-two{
+            max-width: 900px;
+        }
 }
 
 @media screen and (max-width: 1010px){
@@ -133,6 +137,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        padding-top: 24px;
     }
 
     .navbar-text{
@@ -183,6 +188,10 @@
         margin-bottom: 20px;
     }
 
+    .main{
+        background:url("/images/1ekranadaptiv.png") center/cover no-repeat;
+    }
+
     .main-container{
         display: flex;
         flex-direction: column;
@@ -214,6 +223,19 @@
         padding: 0;
 margin-top: 25px;
 max-width: 331px;
+    }
+
+    .advantages-title{
+        padding-top: 100px;
+    }
+
+    .header{
+        padding-top: 0;
+        padding-bottom: 40px;
+    }
+
+    .fives{
+    margin-bottom: 100px;
     }
 
     .mints{
@@ -302,6 +324,7 @@ align-items: center;
             }
     
             #btn-one-adapt:hover{
+                width: 213px;
                     border-radius: 5px;
                     box-shadow:0 0 8.6px 2px rgb(120, 234, 255);
                   }
@@ -359,15 +382,27 @@ align-items: center;
     .ugly{
         display: none;
     }
-    
-    .advantages-container{
-        background: url("/images/ugly320.png") top/cover no-repeat;
+
+    .ugly-adapt{
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        /*top:60px;
+        right: 240px;*/
+        z-index: -1;
+        text-align: center;
     }
 
     .container-action{
         align-items: center;
     justify-content: center;
     text-align: center;
+    }
+
+    .content-reviews{
+        margin-bottom: 124px;
     }
 
     .footer-container{
@@ -432,7 +467,9 @@ align-items: center;
         margin-left: 12px;
     }
 
-    
+    .footer-adapt{
+        padding-bottom: 38px;
+    }
 
     .adapt-phone{
         margin-left: 30px;
@@ -464,7 +501,6 @@ align-items: center;
     .container-four{
         object-fit: cover;
     }
-
 }
 
 @media screen and (max-width: 552px){
@@ -485,6 +521,7 @@ align-items: center;
     .container-four{
         width: 400px;
     }
+
 }
 
 @media screen and (max-width: 500px) {
@@ -535,6 +572,13 @@ font-size: 14px;
 .smokerings{
     display: none;
 }
+
+.option-price{
+    top:-20px;
+    left:30px;
+    font-size: 20px;
+}
+
 }
 
 @media screen and (max-width: 444px){
@@ -543,8 +587,21 @@ font-size: 14px;
   white-space: nowrap;
     }
 
+    .mob-burger{
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
     .double-title-adapt {
         text-align: center;
+    }
+
+    .main-image-adapt{
+        width: 320px;
+    }
+
+    .main-image-adapt img{
+        width: 300px;
     }
 
     
@@ -568,6 +625,10 @@ font-size: 14px;
         width: 320px;  
     }
 
+    button.btn:hover{
+        width: 320px;
+    }
+
     .action-header{
      font-size: 32px;
      width: 215px;
@@ -586,6 +647,11 @@ font-size: 14px;
     .container-three{
         width: 350px;
     }
+
+    .video{
+        width: 350px;
+        margin: 0 auto;
+    }
 }
 
 @media screen and (max-width: 375px) {
@@ -601,6 +667,21 @@ font-size: 14px;
     .header__burger-svg{
         margin-left: 54px; 
     }
+
+    .video{
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .video-list{
+        width: 300px;
+        height: 150px;
+    }
+
+    .content-reviews{
+        padding-right: 0;
+    }
+
 }
 
 
@@ -622,7 +703,16 @@ font-size: 14px;
         width: 300px;  
     }
 
+   
     .container-three{
         width: 300px;
+    }
+
+    .slick-slider .slick-track{
+        width: 300px;
+    }
+
+    .footer-container-two{
+        width: 290px;
     }
 }
