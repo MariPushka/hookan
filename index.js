@@ -10,7 +10,7 @@
         burger.show();
     })
 }) 
-  
+
   $('#btn-one').click(function(){
     $('.option')[0].scrollIntoView({behavior: "smooth"});
 });
